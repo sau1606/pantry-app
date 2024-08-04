@@ -1,0 +1,123 @@
+<%- include('layout/header') %>
+
+<div class="container">
+  <div class="row my-4">
+    <div class="col-lg-12">
+      <h1 class="text-center">About Pantry App</h1>
+      <p class="text-center text-secondary mt-3">
+        Welcome to the Pantry App! This application allows you to manage your
+        pantry items efficiently. Here, you can add, edit, delete, and view
+        items with ease. Below is a detailed explanation of the features and
+        functionality of the app.
+      </p>
+
+      <h2 class="mt-4">Features</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Add Items:</strong> You can add new items to your pantry by
+          providing details like name, price, quantity, and an image of the
+          item.
+        </li>
+        <li class="list-group-item">
+          <strong>Edit Items:</strong> If you need to update any details of an
+          existing item, you can easily do so by editing the item.
+        </li>
+        <li class="list-group-item">
+          <strong>Delete Items:</strong> You can remove items from your pantry
+          that are no longer needed.
+        </li>
+        <li class="list-group-item">
+          <strong>View Items:</strong> All the items in your pantry are
+          displayed in a table format, making it easy to view and manage them.
+        </li>
+        <li class="list-group-item">
+          <strong>Notifications:</strong> The app provides notifications for
+          actions like adding, updating, or deleting items.
+        </li>
+      </ul>
+
+      <h2 class="mt-4">Technology Stack</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Frontend:</strong> The frontend of the app is built using EJS
+          for templating, along with Bootstrap for styling.
+        </li>
+        <li class="list-group-item">
+          <strong>Backend:</strong> The backend is powered by Express.js, a
+          minimal and flexible Node.js web application framework.
+        </li>
+        <li class="list-group-item">
+          <strong>Database:</strong> MongoDB is used as the database to store
+          pantry items.
+        </li>
+        <li class="list-group-item">
+          <strong>File Uploads:</strong> Multer is used for handling
+          multipart/form-data, which is primarily used for uploading files.
+        </li>
+      </ul>
+
+      <h2 class="mt-4">Usage</h2>
+      <p>To use the Pantry App, follow these steps:</p>
+      <ol class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Adding an Item:</strong> Navigate to the "Add Item" page and
+          fill in the details of the item you want to add. Upload an image if
+          available and submit the form.
+        </li>
+        <li class="list-group-item">
+          <strong>Editing an Item:</strong> On the homepage, click the edit icon
+          next to the item you want to update. Make the necessary changes and
+          submit the form.
+        </li>
+        <li class="list-group-item">
+          <strong>Deleting an Item:</strong> On the homepage, click the delete
+          icon next to the item you want to remove. Confirm the deletion to
+          remove the item from your pantry.
+        </li>
+      </ol>
+
+      <!-- <h2 class="mt-4">Routes</h2>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>GET /:</strong> Fetch and display all pantry items.
+        </li>
+        <li class="list-group-item">
+          <strong>GET /add:</strong> Render the form to add a new item.
+        </li>
+        <li class="list-group-item">
+          <strong>POST /add:</strong> Handle the form submission to add a new
+          item.
+        </li>
+        <li class="list-group-item">
+          <strong>GET /edit/:id:</strong> Render the form to edit an existing
+          item.
+        </li>
+        <li class="list-group-item">
+          <strong>POST /update/:id:</strong> Handle the form submission to
+          update an existing item.
+        </li>
+        <li class="list-group-item">
+          <strong>GET /delete/:id:</strong> Handle the deletion of an existing
+          item.
+        </li>
+        <li class="list-group-item">
+          <strong>GET /contact:</strong> Render the contact form page.
+        </li>
+        <li class="list-group-item">
+          <strong>POST /submit-contact-form:</strong> Handle the contact form
+          submission.
+        </li>
+      </ul> -->
+
+      <h2 class="mt-4">Conclusion</h2>
+      <p>
+        The Pantry App is a robust and easy-to-use application designed to help
+        you manage your pantry items efficiently. With features to add, edit,
+        delete, and view items, as well as real-time notifications, managing
+        your pantry has never been easier. Thank you for using the Pantry App!
+      </p>
+    </div>
+  </div>
+</div>
+
+<%- include('layout/footer') %>
